@@ -1,9 +1,13 @@
 # How to add origin to Git Repo
 
-echo "# test" >> README.md
 git init
-git add README.md
+
+git add \<files\>
+
 git commit -m "first commit"
+
 git branch -M master
-git remote add origin https://github.com/HodoJi/test.git
+
+git remote add origin https://github.com/HodoJi/<git_repo>.git
+
 git push -u origin master
