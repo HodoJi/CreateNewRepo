@@ -2,12 +2,12 @@
 
 git init
 
+git remote add origin https://github.com/<user\>/\<git_repo\>.git
+
 git add \<files\>
 
-git commit -m "first commit"
+git commit -m "First Commit"
 
-git branch -M master
+git branch -M \<master branch\>
 
-git remote add origin https://github.com/HodoJi/<git_repo>.git
-
-git push -u origin master
+git push -u origin \<master branch\>
